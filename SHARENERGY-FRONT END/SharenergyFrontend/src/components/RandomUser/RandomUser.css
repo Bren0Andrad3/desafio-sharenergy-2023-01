@@ -1,0 +1,31 @@
+
+
+ 
+ 
+
+ 
+ .pagination {
+    color: #006699; /* Alterando a cor do texto */
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    border: 1px solid #006699; /* adicionando borda */
+    background-color: #f2f2f2; /* Alterando a cor de fundo */
+    box-shadow: 2px 2px 5px #999; /* Adicionando sombra */
+    margin: 2px;
+}
+
+.pagination a:hover, .pagination a:active {
+    background-color: #006699; /* Adicionando estado hover e active */
+    color: #fff;
+    border-color: #006699;
+}
+
+ .inverter{
+  float:right;
+ }
+ 
+
+ 
+ 
+ 

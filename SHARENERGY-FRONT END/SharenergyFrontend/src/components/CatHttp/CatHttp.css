@@ -1,0 +1,45 @@
+.div2 {
+    margin-bottom: 10px;
+  }
+  
+  .label2, .input2, .button2 {
+    display: block; /* ocupa todo o espaço disponível na largura do contêiner e é colocado em uma nova linha */
+  }
+  
+  .input2 {
+    box-shadow: 2px 2px 5px gray; /* adiciona uma sombra */
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid gray;
+    font-weight: bold;
+    width: 30rem;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    color: rgb(0, 0, 0);
+    font-family: 'Montserrat', sans-serif;
+    color: #8B0000
+    
+    
+}
+  
+.button2 {
+    background-color: #8B0000;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    margin: 10px auto;
+    transition: all 0.3s ease; /* adiciona uma animação suave */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px; /* aumenta o tamanho em largura */
+    height:50px; /* aumenta o tamanho em altura */
+}
+
+.button2:hover {
+    transform: scale(1.1); /* aumenta o tamanho do botão quando o mouse estiver sobre ele */
+}
+
+  

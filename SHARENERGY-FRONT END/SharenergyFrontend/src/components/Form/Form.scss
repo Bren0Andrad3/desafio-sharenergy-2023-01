@@ -1,0 +1,79 @@
+.form {
+   height: 100%;
+
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   	
+
+   
+
+   @media (min-width: 0px) {
+      width: 100%;
+
+      padding: 20px;
+   }
+
+   @media (min-width: 900px) {
+      width: 50%;
+
+      padding: 80px;
+   }
+
+   >h2 {
+      color: #1BA2A1;
+      font-weight: 700;
+      font-size: 30px;
+
+      text-align: center;
+
+      margin-bottom: 15px;
+   }
+
+   .welcome-text {
+      text-align: center;
+      font-size: 13px;
+      color: #aaaaaa;
+
+      margin-bottom: 30px;
+   }
+
+   .buttons-social-media {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+
+      width: 100%;
+
+      margin-bottom: 30px;
+   }
+
+   .sign-up-text {
+      margin-bottom: 25px;
+
+      font-size: 13px;
+      font-weight: 500;
+      color: #aaaaaa;
+   }
+
+   .sign-in-text {
+      color: #aaaaaa;
+      font-size: 14px;
+      font-weight: 500;
+
+      >span {
+         color: #1BA2A1;
+
+         cursor: pointer;
+      }
+   }
+
+   .input {
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      box-sizing: border-box;
+   }
+}
